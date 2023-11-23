@@ -333,9 +333,12 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Interactions.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CameraHolder.cs"
 "Assets/Scripts/ClientController.cs"
+"Assets/Scripts/CursorController.cs"
+"Assets/Scripts/KeyboardController.cs"
 -langversion:9.0
 
 /deterministic
