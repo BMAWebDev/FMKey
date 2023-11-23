@@ -9,7 +9,7 @@ public class CursorController : MonoBehaviour
   // Start is called before the first frame update
   void Awake()
   {
-    //Cursor.SetCursor(cursor, new Vector2(cursor.width / 2, cursor.height / 2), CursorMode.Auto);
+    Cursor.SetCursor(cursor, new Vector2(cursor.width / 2, cursor.height / 2), CursorMode.Auto);
     Cursor.lockState = CursorLockMode.Locked;
   }
 
