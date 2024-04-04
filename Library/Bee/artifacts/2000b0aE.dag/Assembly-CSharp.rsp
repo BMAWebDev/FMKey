@@ -307,7 +307,11 @@
 -r:"F:/Facultate/Licenta/Unity/(Licenta) - Magazin virtual 3D in WebGL/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"F:/Facultate/Licenta/Unity/(Licenta) - Magazin virtual 3D in WebGL/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"F:/Facultate/Licenta/Unity/(Licenta) - Magazin virtual 3D in WebGL/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/2000b0aE.dag/Autodesk.Fbx.Editor.ref.dll"
+-r:"Library/Bee/artifacts/2000b0aE.dag/Autodesk.Fbx.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
+-r:"Library/Bee/artifacts/2000b0aE.dag/Unity.Formats.Fbx.Editor.ref.dll"
+-r:"Library/Bee/artifacts/2000b0aE.dag/Unity.Formats.Fbx.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.Rider.Editor.ref.dll"
@@ -335,9 +339,15 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CameraHolder.cs"
+"Assets/Scripts/Checkout.cs"
+"Assets/Scripts/CheckoutDetails.cs"
 "Assets/Scripts/ClientController.cs"
+"Assets/Scripts/CMSProducts.cs"
 "Assets/Scripts/CursorController.cs"
-"Assets/Scripts/KeyboardController.cs"
+"Assets/Scripts/EnvReader.cs"
+"Assets/Scripts/Order.cs"
+"Assets/Scripts/SimpleJSON.cs"
+"Assets/Scripts/TextUpdater.cs"
 -langversion:9.0
 
 /deterministic

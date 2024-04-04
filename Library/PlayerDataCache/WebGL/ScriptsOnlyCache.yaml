@@ -4,8 +4,14 @@ ScriptsOnlyBuild:
     - CameraController
     - CameraHolder
     - ClientController
+    - CursorController
+    - KeyboardController
+    Unity.Formats.Fbx.Editor.dll:
+    - UnityEditor.Formats.Fbx.Exporter.ExportSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.dll:
+    - UnityEngine.Timeline.TimelineAsset
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -40,8 +46,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
@@ -53,11 +57,15 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 4164}
+      Script: {instanceID: 2846}
     - Class: 114
-      Script: {instanceID: 5084}
+      Script: {instanceID: 4130}
     - Class: 114
-      Script: {instanceID: 5086}
+      Script: {instanceID: 4338}
+    - Class: 114
+      Script: {instanceID: 5308}
+    - Class: 114
+      Script: {instanceID: 5310}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -206,6 +214,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: KeyboardController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: CoroutineRunner
@@ -287,6 +301,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: aca7af8fe7d69be6ab50e3184d28e519
+    assemblyName: Unity.Formats.Fbx.Runtime.dll
+    namespaceName: UnityEngine.Formats.Fbx.Exporter
+    className: FbxPrefab
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -383,6 +403,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 5994f14a0b41e9f98e505de0b332c804
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CursorController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -611,6 +637,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: FbxBuildTestAssets.dll
+    namespaceName: Autodesk.Fbx.BuildTests
+    className: ExportEmptyFbx
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -860,4 +892,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: F:/Facultate/Licenta/WebGL Sample/builds/v0.1 - optimizare + collidere
+  playerPath: F:/Facultate/Licenta/WebGL Sample/builds/v0.1/profiler

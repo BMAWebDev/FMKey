@@ -10,7 +10,7 @@
     "option_additional_cpp_count": 0,
     "option_emit_null_checks": false,
     "option_enable_stacktrace": false,
-    "option_enable_deep_profiler": false,
+    "option_enable_deep_profiler": true,
     "option_enable_stats": false,
     "option_enable_array_bounds_check": false,
     "option_enable_divide_by_zero_check": false,

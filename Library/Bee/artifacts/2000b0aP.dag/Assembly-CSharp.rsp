@@ -292,6 +292,8 @@
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CameraHolder.cs"
 "Assets/Scripts/ClientController.cs"
+"Assets/Scripts/CursorController.cs"
+"Assets/Scripts/KeyboardController.cs"
 -langversion:9.0
 
 /deterministic
