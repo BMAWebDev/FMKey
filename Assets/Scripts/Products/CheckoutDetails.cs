@@ -162,9 +162,8 @@ public class CheckoutDetails : MonoBehaviour
   /// <param name="_title">Product's title. Used for display.</param>
   /// <param name="_price">Product's price. Used for display.</param>
   /// <param name="_thumbnailURL">Product's thumbnail URL. Used for display.</param>
-  public static void SetProductDetails(int _id, string _title, string _price, string _thumbnailURL)
+  public static void SetProductDetails(string _title, string _price, string _thumbnailURL)
   {
-    productID = _id;
     ProductTitle = _title;
     ProductPrice = _price;
     thumbnailURL = _thumbnailURL;

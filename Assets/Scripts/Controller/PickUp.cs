@@ -100,6 +100,8 @@ public class PickUp : MonoBehaviour
   /// </summary>
   void HoverProduct(GameObject _productGO)
   {
+    int id = CheckoutDetails.productID;
+
     // In order to display the product info,
     // activate first the hover panel
     if (!IsHoverPanelActive)
@@ -116,7 +118,6 @@ public class PickUp : MonoBehaviour
       // at based on its name (SKU identifier)
       if (sku == _productGO.name)
       {
-        int id = product.id;
         string name = product.name;
         string price = product.price;
         string imageURL = product.images[0].src;
@@ -124,9 +125,10 @@ public class PickUp : MonoBehaviour
         // Save product data found and if it isn't already fetched,
         // set new data found in the Checkout Details
         // so we can use it later
-        if (CheckoutDetails.productID != id)
+        if (id != product.id)
         {
-          CheckoutDetails.SetProductDetails(id, name, price, imageURL);
+          id = product.id;
+          CheckoutDetails.SetProductDetails(name, price, imageURL);
         }
       }
     }
@@ -136,6 +138,7 @@ public class PickUp : MonoBehaviour
     // rotation so we can later put it back on the shelf
     if (Input.GetKeyDown(KeyCode.E))
     {
+      CheckoutDetails.productID = id;
       CMSProducts.pickedProductInitialPosition = _productGO.transform.position;
       CMSProducts.pickedProductInitialRotation = _productGO.transform.rotation;
       PickUpObject(_productGO);
